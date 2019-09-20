@@ -1,0 +1,84 @@
+.Welkom p {
+    font-style:italic;
+    font-family: Arial, monospace;
+    color: darkslategray;
+    text-align: center;
+    border: 1px dotted grey;
+    border-right: hidden;
+    border-left: hidden;
+    padding: 4px;
+}
+
+.Welkom h1 {
+    font-family: "Arial";
+    text-align: center;
+
+}
+
+.dog, .Gamen, .school {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 0 auto;
+    display: block;
+}
+
+p {
+    font-family: "Arial";
+    text-align: center;
+}
+
+.Klas, .Middelbaar{
+  background: #88CCF1;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center
+}
+
+.Richting {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  text-align: left; 
+  background-color: white;
+}
+
+ul {
+  box-sizing: border-box;
+  background-color: #000000;
+  overflow:auto;
+  color:white
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+}
+
+li a {
+    display:block;
+}
+
+
+table {
+  width: 50%; 
+  margin: 20px auto;
+}
+
+body {
+  background: white;
+}
+
+h2 {
+    border: 3px solid lightblue;
+    border-right: hidden;
+    border-left: hidden;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+                
+}
+
+#Alles {
+    margin: 10px;
+}
+
