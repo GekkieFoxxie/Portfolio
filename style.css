@@ -44,18 +44,29 @@ p {
 }
 
 ul {
-  box-sizing: border-box;
-  background-color: #000000;
-  overflow:auto;
-  color:white
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 60px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  
 }
 
 li a {
-    display:block;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
 }
 
 
@@ -80,5 +91,57 @@ h2 {
 
 #Alles {
     margin: 10px;
+}
+
+
+
+input {
+    border: 1px solid;
+    border-color: gray;
+    padding: 5px 5px;
+    font-size: 19px;
+    border-radius: 5px;
+    position: relative;
+    padding: 10px 5px;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    display: block;
+}
+
+textarea {
+    border-color: gray;
+    border-radius: 5px;
+    border: 1px solid;
+    position: relative;
+    font-size: 14px;
+    padding: 10px 10px;
+    font-family: monospace;
+    margin:  auto;
+    display: block;
+}
+
+.Contact {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 48px;
+  text-align: center;
+}
+
+.ContactInfo {
+    padding-bottom: 20px;
+    font-family: "Lucida S;ans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+#submit {
+    margin: 20px auto;
+    display: block;
+    
+}
+
+label {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: block;
+    padding-top: 10px
 }
 
