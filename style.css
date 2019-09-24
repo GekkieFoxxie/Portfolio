@@ -43,7 +43,7 @@ p {
   background-color: white;
 }
 
-ul {
+.Nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -51,12 +51,12 @@ ul {
   background-color: #333;
 }
 
-li {
+.Navli {
   float: left;
   
 }
 
-li a {
+.Navli a {
   display: block;
   color: white;
   text-align: center;
@@ -64,7 +64,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.Navli a:hover {
   background-color: #555;
   color: white;
 }
@@ -76,7 +76,8 @@ table {
 }
 
 body {
-  background: white;
+  background-image: url(images/background.jpg);
+  background-size: cover;
 }
 
 h2 {
@@ -138,10 +139,57 @@ textarea {
     
 }
 
+#submit:hover {
+    background-color: #555;
+}
+
 label {
     font-family: Arial, sans-serif;
     text-align: center;
     display: block;
     padding-top: 10px
 }
+
+.Back {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.BackLi {
+  display: block;
+  color: aqua; 
+  text-align: center;
+  padding: 100px 40%;
+  text-decoration: none;    
+}
+
+.BackLi a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  border: 1px solid grey;
+  background-color: black;
+  font-family: 'Mansalva';
+  font-size: 28px
+}
+
+.BackLi a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.SK {
+    text-align: center;
+    font-family: 'Anton';
+    padding: 40px;
+    margin: 120px;
+    font-size: 70px;
+}
+
+
 
