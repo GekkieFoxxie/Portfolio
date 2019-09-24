@@ -98,7 +98,6 @@ h2 {
 
 input {
     border: 1px solid;
-    border-color: gray;
     padding: 5px 5px;
     font-size: 19px;
     border-radius: 5px;
@@ -116,8 +115,8 @@ textarea {
     position: relative;
     font-size: 14px;
     padding: 10px 10px;
-    font-family: monospace;
-    margin:  auto;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
     display: block;
 }
 
@@ -128,7 +127,7 @@ textarea {
 }
 
 .ContactInfo {
-    padding-bottom: 20px;
+    padding: 10px;
     font-family: "Lucida S;ans Unicode", "Lucida Grande", sans-serif;
 }
 
