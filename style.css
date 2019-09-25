@@ -115,10 +115,14 @@ textarea {
     position: relative;
     font-size: 14px;
     padding: 10px 10px;
-    font-family: Arial, sans-serif;
     margin: 0 auto;
     display: block;
 }
+
+#bericht {
+    font-family: Arial, sans-serif;
+}
+
 
 .Contact {
   font-family: Impact, Charcoal, sans-serif;
@@ -189,6 +193,5 @@ label {
     margin: 120px;
     font-size: 70px;
 }
-
 
 
