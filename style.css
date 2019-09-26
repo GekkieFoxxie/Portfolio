@@ -13,6 +13,7 @@
     font-family: Impact, Charcoal, sans-serif;
     font-size: 48px;
     text-align: center;
+    margin: 0
 
 }
 
@@ -35,6 +36,10 @@ p {
   font-size: 18px;
   letter-spacing: 1px;
   text-align: center
+}
+
+.Middelbaar {
+    text-transform: uppercase;
 }
 
 .Richting {
@@ -87,7 +92,8 @@ table {
   margin: 20px auto;
 }
 
-body {
+
+.PageC, .PageS, .PageI {
   background-image: url(images/background.jpg);
   background-size: cover;
   margin: 0;
@@ -104,12 +110,11 @@ body {
                 
 }
 
-main {
-    margin: 10px;
-    padding: 5px
-    
-}
 
+body {
+    margin: 0;
+    padding: 0;
+}
 
 
 input {
@@ -142,13 +147,13 @@ textarea {
 }
 
 
-.Contact {
+.Contact, .Huisdier {
   font-family: Impact, Charcoal, sans-serif;
   font-size: 48px;
   text-align: center;
 }
 
-.ContactInfo {
+.ContactInfo, .HuisdierInfo, .VTE {
     padding: 10px;
     font-family: "Arial", sans-serif;
     border: 3px solid hsla(192, 100%, 70%, 0.5);
@@ -243,7 +248,7 @@ label {
     border-top: hidden;
 }
 
-h3 {
+.CR {
     color: white;
     padding-left: 30px;
     display: inline-block;
@@ -294,3 +299,57 @@ h3 {
 .TLI a:hover {
     color: white;
 }
+
+.Milo {
+    color: black;
+    text-align: center;
+    font-family: Arial, serif;
+    margin: 30px 0px 0px 0px;
+    font-size: 48px;
+}
+
+.FotosMilo {
+    padding-left: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    
+}
+
+.FotoM {
+    border-radius: 40px;
+    margin: 20px 20px 0px 20px;
+    display: block;
+    float: left;
+}
+
+.FotoS {
+    margin: 0px 55px 0px 80px;
+    border-radius: 40px;
+    display: block;
+    float: left;
+}
+
+
+.FotoR {
+    transform: rotate(90deg);
+    margin: 20px 55px 0px 80px;
+    border-radius: 40px;
+    display: flex;
+    float: left;
+}
+
+.MiloV, .MiloV2 {
+    border-radius: 10px;
+    margin-left: 15%;
+}
+
+.MiloV2 {
+    margin-left: 29%;
+    margin-top: 20px
+}
+
+.VTE {
+    margin-bottom: 20px
+}
+
+
